@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#f6e7ee" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <title>Happy Mother's Day</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Dancing+Script:wght@500;600&family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div class="background" aria-hidden="true"></div>
+    <div class="background-overlay" aria-hidden="true"></div>
+    <canvas class="petals" id="petals" aria-hidden="true"></canvas>
+
+    <button
+      type="button"
+      class="sound-toggle"
+      id="soundToggle"
+      aria-pressed="false"
+      aria-label="Toggle sound"
+    >
+      <svg viewBox="0 0 24 24" class="icon icon-on" aria-hidden="true">
+        <path
+          d="M4 9.5h3.5L12 5v14l-4.5-4.5H4v-5z"
+          fill="currentColor"
+        />
+        <path
+          d="M15.5 8.5a4.5 4.5 0 010 7M18 6a8 8 0 010 12"
+          stroke="currentColor"
+          stroke-width="1.6"
+          fill="none"
+          stroke-linecap="round"
+        />
+      </svg>
+      <svg viewBox="0 0 24 24" class="icon icon-off" aria-hidden="true">
+        <path
+          d="M4 9.5h3.5L12 5v14l-4.5-4.5H4v-5z"
+          fill="currentColor"
+        />
+        <path
+          d="M16 9l5 5m0-5l-5 5"
+          stroke="currentColor"
+          stroke-width="1.8"
+          fill="none"
+          stroke-linecap="round"
+        />
+      </svg>
+    </button>
+
+    <main class="stage">
+      <div
+        class="card"
+        id="card"
+        role="button"
+        tabindex="0"
+        aria-pressed="false"
+        aria-label="Mother's Day card. Press to flip. Drag to tilt."
+      >
+        <div class="card-inner" id="cardInner">
+          <div class="card-face card-face--front">
+            <img id="cardFront" alt="" draggable="false" />
+          </div>
+          <div class="card-face card-face--back">
+            <div class="card-back-inner">
+              <p id="cardMessage" class="card-message"></p>
+              <p id="cardSignature" class="card-signature"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <p class="hint" id="hint" aria-hidden="true">Tap to flip · Drag to tilt</p>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

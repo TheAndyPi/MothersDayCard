@@ -1,0 +1,15 @@
+{
+  "frontImage": "./my-card.png",
+  "frontImageAlt": "Mother's Day card front",
+  "backgroundImage": "./background-flowers.svg",
+  "scriptFont": "Great Vibes",
+  "message": "Dear Mom,\n\nThank you for always being there for me.\nAt every moment, and through every stage of my life.\n\nAs I continue to grow up, and go into the big world,\nI miss being able to see you every day.\n\nBut no matter how far apart we are in miles,\nJust know I will still always be your tiny little baby.\n\nThank you for being the best mom in the world.",
+  "signature": "With much love,\nAnderson Chan",
+  "petalCount": 32,
+  "petalSpeed": 1,
+  "soundEnabled": true,
+  "backgroundAudio": "./music.mp3",
+  "backgroundAudioVolume": 0.4,
+  "backgroundAudioAutoplay": true,
+  "cardAspect": null
+}

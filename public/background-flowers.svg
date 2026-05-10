@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#fff5fa"/>
+      <stop offset="55%" stop-color="#fce0ec"/>
+      <stop offset="100%" stop-color="#f3c1d6"/>
+    </radialGradient>
+    <radialGradient id="petal" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#fcb6cf" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#e58aab" stop-opacity="0.85"/>
+    </radialGradient>
+    <radialGradient id="leaf" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#cfe7c4"/>
+      <stop offset="100%" stop-color="#7bb38f"/>
+    </radialGradient>
+    <symbol id="bloom" viewBox="-100 -100 200 200">
+      <g>
+        <ellipse cx="0" cy="-55" rx="38" ry="55" fill="url(#petal)"/>
+        <ellipse cx="0" cy="-55" rx="38" ry="55" fill="url(#petal)" transform="rotate(60)"/>
+        <ellipse cx="0" cy="-55" rx="38" ry="55" fill="url(#petal)" transform="rotate(120)"/>
+        <ellipse cx="0" cy="-55" rx="38" ry="55" fill="url(#petal)" transform="rotate(180)"/>
+        <ellipse cx="0" cy="-55" rx="38" ry="55" fill="url(#petal)" transform="rotate(240)"/>
+        <ellipse cx="0" cy="-55" rx="38" ry="55" fill="url(#petal)" transform="rotate(300)"/>
+        <circle r="20" fill="#f4d56a"/>
+        <circle r="10" fill="#c7901c" opacity="0.6"/>
+      </g>
+    </symbol>
+    <symbol id="leafShape" viewBox="-50 -100 100 200">
+      <path d="M0,-95 C45,-60 45,40 0,95 C-45,40 -45,-60 0,-95 Z" fill="url(#leaf)"/>
+      <path d="M0,-95 L0,95" stroke="#4f7e62" stroke-width="2" opacity="0.5"/>
+    </symbol>
+  </defs>
+
+  <rect width="1400" height="1400" fill="url(#sky)"/>
+
+  <g opacity="0.55">
+    <use href="#leafShape" x="120" y="80" width="110" height="170" transform="rotate(-22 175 165)"/>
+    <use href="#leafShape" x="900" y="60" width="105" height="160" transform="rotate(155 952 140)"/>
+    <use href="#leafShape" x="540" y="380" width="100" height="160" transform="rotate(28 590 460)"/>
+    <use href="#leafShape" x="1180" y="320" width="115" height="170" transform="rotate(-12 1237 405)"/>
+    <use href="#leafShape" x="80" y="600" width="105" height="160" transform="rotate(20 132 680)"/>
+    <use href="#leafShape" x="780" y="640" width="110" height="170" transform="rotate(-18 835 725)"/>
+    <use href="#leafShape" x="320" y="900" width="105" height="160" transform="rotate(40 372 980)"/>
+    <use href="#leafShape" x="1100" y="900" width="110" height="170" transform="rotate(-30 1155 985)"/>
+    <use href="#leafShape" x="200" y="1180" width="100" height="160" transform="rotate(15 250 1260)"/>
+    <use href="#leafShape" x="900" y="1200" width="105" height="160" transform="rotate(-25 952 1280)"/>
+  </g>
+
+  <g fill-opacity="0.85">
+    <use href="#bloom" x="40"   y="40"   width="100" height="120"/>
+    <use href="#bloom" x="280"  y="80"   width="100" height="120"/>
+    <use href="#bloom" x="540"  y="40"   width="100" height="120"/>
+    <use href="#bloom" x="780"  y="100"  width="100" height="120"/>
+    <use href="#bloom" x="1040" y="50"   width="100" height="120"/>
+    <use href="#bloom" x="1280" y="80"   width="100" height="120"/>
+
+    <use href="#bloom" x="160"  y="240"  width="100" height="120"/>
+    <use href="#bloom" x="420"  y="220"  width="100" height="120"/>
+    <use href="#bloom" x="680"  y="280"  width="100" height="120"/>
+    <use href="#bloom" x="940"  y="240"  width="100" height="120"/>
+    <use href="#bloom" x="1200" y="260"  width="100" height="120"/>
+
+    <use href="#bloom" x="40"   y="420"  width="100" height="120"/>
+    <use href="#bloom" x="320"  y="460"  width="100" height="120"/>
+    <use href="#bloom" x="600"  y="420"  width="100" height="120"/>
+    <use href="#bloom" x="860"  y="480"  width="100" height="120"/>
+    <use href="#bloom" x="1120" y="440"  width="100" height="120"/>
+    <use href="#bloom" x="1300" y="500"  width="100" height="120"/>
+
+    <use href="#bloom" x="180"  y="640"  width="100" height="120"/>
+    <use href="#bloom" x="460"  y="660"  width="100" height="120"/>
+    <use href="#bloom" x="740"  y="620"  width="100" height="120"/>
+    <use href="#bloom" x="1020" y="660"  width="100" height="120"/>
+    <use href="#bloom" x="1260" y="700"  width="100" height="120"/>
+
+    <use href="#bloom" x="60"   y="840"  width="100" height="120"/>
+    <use href="#bloom" x="340"  y="860"  width="100" height="120"/>
+    <use href="#bloom" x="620"  y="820"  width="100" height="120"/>
+    <use href="#bloom" x="900"  y="880"  width="100" height="120"/>
+    <use href="#bloom" x="1180" y="860"  width="100" height="120"/>
+
+    <use href="#bloom" x="200"  y="1040" width="100" height="120"/>
+    <use href="#bloom" x="480"  y="1060" width="100" height="120"/>
+    <use href="#bloom" x="780"  y="1040" width="100" height="120"/>
+    <use href="#bloom" x="1060" y="1080" width="100" height="120"/>
+    <use href="#bloom" x="1300" y="1040" width="100" height="120"/>
+
+    <use href="#bloom" x="40"   y="1240" width="100" height="120"/>
+    <use href="#bloom" x="320"  y="1260" width="100" height="120"/>
+    <use href="#bloom" x="620"  y="1240" width="100" height="120"/>
+    <use href="#bloom" x="900"  y="1280" width="100" height="120"/>
+    <use href="#bloom" x="1180" y="1240" width="100" height="120"/>
+  </g>
+
+  <g opacity="0.45">
+    <circle cx="160"  cy="160"  r="4" fill="#ffffff"/>
+    <circle cx="420"  cy="380"  r="5" fill="#ffffff"/>
+    <circle cx="700"  cy="200"  r="4" fill="#ffffff"/>
+    <circle cx="980"  cy="380"  r="5" fill="#ffffff"/>
+    <circle cx="1240" cy="180"  r="4" fill="#ffffff"/>
+    <circle cx="240"  cy="540"  r="5" fill="#ffffff"/>
+    <circle cx="560"  cy="580"  r="4" fill="#ffffff"/>
+    <circle cx="860"  cy="560"  r="5" fill="#ffffff"/>
+    <circle cx="1180" cy="600"  r="4" fill="#ffffff"/>
+    <circle cx="380"  cy="780"  r="5" fill="#ffffff"/>
+    <circle cx="700"  cy="780"  r="4" fill="#ffffff"/>
+    <circle cx="1020" cy="800"  r="5" fill="#ffffff"/>
+    <circle cx="200"  cy="980"  r="4" fill="#ffffff"/>
+    <circle cx="540"  cy="1000" r="5" fill="#ffffff"/>
+    <circle cx="860"  cy="980"  r="4" fill="#ffffff"/>
+    <circle cx="1200" cy="1000" r="5" fill="#ffffff"/>
+    <circle cx="380"  cy="1200" r="4" fill="#ffffff"/>
+    <circle cx="780"  cy="1200" r="5" fill="#ffffff"/>
+    <circle cx="1080" cy="1200" r="4" fill="#ffffff"/>
+  </g>
+</svg>
